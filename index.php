@@ -1,4 +1,6 @@
-
+<?php 
+include 'TextConstants.php';
+?>
 <html>
     <head>
         <meta charset="UTF-8">
@@ -11,6 +13,6 @@
     <body>
 
         <h1>HeadLine</h1>
-        <p><?php echo DataConstants::firstText;?> </p>
+        <p><?php echo TextConstants::firstTest;?> </p>
     </body>
 </html>
