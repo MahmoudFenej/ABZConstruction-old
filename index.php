@@ -12,7 +12,6 @@ include 'TextConstants.php';
     </head>
     <body>
 
-        <h1>HeadLine</h1>
-        <p><?php echo TextConstants::firstTest;?> </p>
+      
     </body>
 </html>

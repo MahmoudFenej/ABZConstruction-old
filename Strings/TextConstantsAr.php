@@ -41,5 +41,17 @@ class TextConstantsAr {
     const CONTACT_US = "تواصل معنا ";
     const SEND_REQUEST = "أرسل طلب";
     const CHANGE_TO_ARABIC = "Change To English";
+    //our Work
+    const MOST_IMPORT = "من أهم المشاريع والمهندسين والشركات ";
+    const SAIID_HALLAB = "أستاذ سعيد حلاب للبناء ";
+    const SAIIDSHA = "أستاذ سعيد شعراني  للبناء ";
+    const CEZAR = "أستاذ سيزار عرنوق للبناء ";
+    const SPIRO = "أستاذ سبيرو روحانا  للبناء ";
+    const JAWDAT = "أستاذ جودت عرنوق للبناء ";
+    const OBEID = "شركة عبيد للبناء   ";
+    const TUFIC = "أستاذ توفيق الأطرش  للبناء";
+    const RADWAN = "أستاذ رضوان عبد الحي  للبناء ";
+    const KARAMI = "شركة كرامى للبناء   ";
+    const MANY_OTHERS = "ABZ والعديد من المشاريع الأخرى و الشركات والمهندسين المنفذين من فبل شركة   ";
 
 }

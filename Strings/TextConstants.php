@@ -2,6 +2,7 @@
 
 abstract class TextConstants {
 
+//index
     const WHAT_IS_ABZ = "What Abz Construction Company ?";
     const COMPANY_NAME = "Abz Construction Company";
     const HOME_COMPANY_DEFINITION = "The Founder of Zahra Construction  S.A.R.L Company that is specialized by the construction work 
@@ -34,10 +35,23 @@ abstract class TextConstants {
     const ROCK = "Dressing all Kinds of Stone";
     const LOGO_TAG = "We Bring To You a Fashion with Professional work";
     const WELCOME = "Welcome Abz Construction Company";
-    const HOME="Home";
-    const OUR_WORK="Our Work";
-    const ABOUT_US="About Us";
-    const CONTACT_US="Contact Us";
-    const SEND_REQUEST="Send Request";
-    const CHANGE_TO_ARABIC="Change To Arabic";
+    const HOME = "Home";
+    const OUR_WORK = "Our Work";
+    const ABOUT_US = "About Us";
+    const CONTACT_US = "Contact Us";
+    const SEND_REQUEST = "Send Request";
+    const CHANGE_TO_ARABIC = "Change To Arabic";
+    ////our Work
+    const MOST_IMPORT = "From The Most important Projects and Company and Engineers:";
+    const SAIID_HALLAB = "Mr. Saiid Hallab for Building ";
+    const SAIIDSHA = "Mr. Saiid Shaarani for Building";
+    const CEZAR = "Mr. Cezar Arnouk ";
+    const SPIRO = "Mr. Spiro Rouhana ";
+    const JAWDAT = "Mr. Jawadat Arnouk ";
+    const OBEID = "Obeid Company  ";
+    const TUFIC = "Mr. Tufic Al Atrach ";
+    const RADWAN = "Mr. Radwan Abd Al Hay  ";
+    const KARAMI = "Karami Company  ";
+    const MANY_OTHERS = "And Many other Projects And Engineers Thats are done by Abz Company  ";
+
 }
