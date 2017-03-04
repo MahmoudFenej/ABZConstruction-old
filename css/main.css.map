@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "",
-"sources": [],
+"mappings": "AAAE,IAAK,GAEK,WAAW,EAAE,KAAK,EAClB,MAAM,EAAE,KAAK,EACb,KAAK,EAAE,KAAK,EACZ,UAAU,EAAE,IAAI;;ACJ5B,mBAAoB,GAChB,aAAa,EAAE,KAAK,EAEpB,OAAO,EAAE,YAAY,EACrB,KAAK,EAAE,IAAI;;AAGf,wBAAyB,GAErB,UAAU,EAAE,MAAM;;AAItB,0BAA2B,GAEvB,SAAS,EAAE,IAAI",
+"sources": ["../Scss/Images/ImagesStyle.scss","../Scss/NavBar/NavBarStyle.scss"],
 "names": [],
 "file": "main.css"
 }

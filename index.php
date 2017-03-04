@@ -9,37 +9,8 @@
     <script src="js/jquery-2.1.4.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/script.js"></script>
+    <link href="css/main.css" rel="stylesheet" type="text/css"/>
     <title>ABZ Construction</title>
-    <style>
-        #img {
-
-            margin-left: -14px;
-            height: 130px;
-            width: 250px;
-            margin-top: -5px;
-
-        }
-
-        .navbar .navbar-nav {
-            margin-bottom: -50px;
-
-            display: inline-block;
-            float: none;
-        }
-
-        .navbar .navbar-collapse {
-
-            text-align: center;
-
-        }
-
-        .navbar .navbar-collapse a {
-
-            font-size: 20px;
-
-        }
-
-    </style>
 </head>
 <body>
 
@@ -119,27 +90,27 @@
     <h2>Services</h2>
     <div class="row">
         <section class="col-sm-6 col-md-4 col-lg-2">
-            <img class="icon" src="images/icon-exoticpets.svg" alt="Icon">
+            <img class="icon" src="ServicesImages/EngineerImage.png" alt="Icon">
             <h3>Exotic Pets</h3>
             <p>We offer specialized care for reptiles, rodents, birds, and other exotic pets.</p>
         </section>
 
         <section class="col-sm-6 col-md-4 col-lg-2">
-            <img class="icon" src="images/icon-grooming.svg" alt="Icon">
+            <img class="icon" src="ServicesImages/electrical.png" alt="Icon">
             <h3>Grooming</h3>
             <p>Our therapeutic grooming treatments help battle fleas, allergic dermatitis, and other challenging skin
                 conditions.</p>
         </section>
 
         <section class="col-sm-6 col-md-4 col-lg-2">
-            <img class="icon" src="images/icon-health.svg" alt="Icon">
+            <img class="icon" src="ServicesImages/sanitary.png" alt="Icon">
             <h3>GeneralHealth</h3>
             <p>Wellness and senior exams, ultrasound, x-ray, and dental cleanings are just a few of our general health
                 services.</p>
         </section>
 
         <section class="col-sm-6 col-md-4 col-lg-2">
-            <img class="icon" src="images/icon-nutrition.svg" alt="Icon">
+            <img class="icon" src="ServicesImages/heating.png" alt="Icon">
             <h3>Nutrition</h3>
             <p>Let our nutrition experts review your pet's diet and prescribe a custom nutrition plan for optimum health
                 and disease prevention.</p>
