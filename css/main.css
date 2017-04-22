@@ -1,9 +1,15 @@
-#img { margin-left: -14px; height: 130px; width: 250px; margin-top: -5px; }
+#img { margin-left: -14px; height: 50px; width: 120px; margin-top: -5px; }
 
-.navbar .navbar-nav { margin-bottom: -50px; display: inline-block; float: none; }
+.navbar .navbar-nav { display: inline-block; float: none; }
 
 .navbar .navbar-collapse { text-align: center; }
 
 .navbar .navbar-collapse a { font-size: 20px; }
+
+.container { text-align: center; }
+
+.content { text-align: center; }
+
+.quotes { padding-top: 10px; font-size: 20px; padding-right: 10px; }
 
 /*# sourceMappingURL=main.css.map */

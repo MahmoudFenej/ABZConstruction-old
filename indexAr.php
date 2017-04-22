@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<?php include_once 'Strings/TextConstants.php'; ?>
+f<!DOCTYPE html>
+<?php include_once 'Strings/TextConstantsAr.php'; ?>
 <html lang="en">
     <head>
         <meta charset="UTF-8">
@@ -10,30 +10,22 @@
         <script src="js/bootstrap.min.js"></script>
         <script src="js/script.js"></script>
         <link href="css/main.css" rel="stylesheet" type="text/css"/>
-        <title><?php echo TextConstants::TITLE; ?></title>
+        <title><?php echo TextConstantsAr::TITLE; ?></title>
 
 
 
         <style>
-        .navbar-default
-        {
-            width: 100%;
-            z-index: 100;
-        }
+
 
 
         </style>
 
     </head>
 
-    <body data-spy="scroll" data-target=".navbar-default" data-offset="50">
+    <body>
         <!--  Navigation bar     -->
         <!--   ----------------------        -->
-       
-        <header>
-        <nav class="navbar navbar-default"
-            data-spy="affix" data-offset="800"
-             role="navigation">
+        <nav class="navbar navbar-default" role="navigation">
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="collapsed navbar-toggle" data-toggle="collapse" data-target="#collapse">
@@ -46,21 +38,20 @@
                 </div><!-- navbar-header -->
                 <div class="collapse navbar-collapse" id="collapse">
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#featured" id="home"><?php echo TextConstants::HOME; ?></a></li>
-                        <li><a href="#services"><?php echo TextConstants::OUR_WORK; ?></a></li>
-                        <li><a href="#about-us"><?php echo TextConstants::ABOUT_US; ?></a></li>
-                        <li><a href="#contact-us"><?php echo TextConstants::CONTACT_US; ?></a></li>
-                        <li><a href="#send-request"><?php echo TextConstants::SEND_REQUEST; ?></a></li>
-                        <li><a href="indexAr.php"><?php echo TextConstants::LANG; ?></a></li>
+                        <li><a href="#featured" id="home"><?php echo TextConstantsAr::HOME; ?></a></li>
+                        <li><a href="#services"><?php echo TextConstantsAr::OUR_WORK; ?></a></li>
+                        <li><a href="#about-us"><?php echo TextConstantsAr::ABOUT_US; ?></a></li>
+                        <li><a href="#contact-us"><?php echo TextConstantsAr::CONTACT_US; ?></a></li>
+                        <li><a href="#send-request"><?php echo TextConstantsAr::SEND_REQUEST; ?></a></li>
+                        <li><a href="indexAr.php"><?php echo TextConstantsAr::LANG; ?></a></li>
 
                     </ul>
                 </div>
             </div>
         </nav>
-        </header>
-            <!--   ----------------------        -->
+        <!--   ----------------------        -->
         <!--  end  Navigation bar     -->
-    
+
         <!-- start carousel Inner-->
         <!--   ----------------------        -->
         <div class="content container">
@@ -116,8 +107,8 @@
         <!--   ----------------------        -->
 
         <div  id="home" class="jumbotron container">
-            <h3> <?php echo TextConstants::WHAT_IS_ABZ; ?></h3>
-            <p> <?php echo TextConstants::HOME_COMPANY_DEFINITION ?> </p>
+            <h3> <?php echo TextConstantsAr::WHAT_IS_ABZ; ?></h3>
+            <p> <?php echo TextConstantsAr::HOME_COMPANY_DEFINITION ?> </p>
 
         </div>
 
@@ -127,28 +118,28 @@
         <!--   start services        -->
         <!--   ----------------------        -->
         <div id="services" class="services container">
-            <h2 class="text-center"><?php echo TextConstants::COMPANY_WORK_FEILD; ?></h2>
+            <h2 class="text-center"><?php echo TextConstantsAr::COMPANY_WORK_FEILD; ?></h2>
             <div class="row">
                 <section class="col-sm-4 col-md-4 col-lg-4 ">
                     <img class="icon fadeInDown" src="ServicesImages/EngineerImage.png" alt="Icon">
-                    <h3><?php echo TextConstants::CONSTRUCTION_AND_ENG; ?></h3>
+                    <h3><?php echo TextConstantsAr::CONSTRUCTION_AND_ENG; ?></h3>
                 </section>
 
                 <section class="col-sm-4 col-md-4 col-lg-4">
                     <img class="icon" src="ServicesImages/electrical.png" alt="Icon">
-                    <h3><?php echo TextConstants::INTERNAL_AND_EXTERNAL; ?></h3>
+                    <h3><?php echo TextConstantsAr::INTERNAL_AND_EXTERNAL; ?></h3>
                 </section>
                 <!--<div class="clearfix"></div>-->
 
                 <section class="col-sm-4 col-md-4 col-lg-4">
                     <img class="icon" src="ServicesImages/sanitary.png" alt="Icon">
-                    <h3><?php echo TextConstants::SANITARY; ?></h3>
+                    <h3><?php echo TextConstantsAr::SANITARY; ?></h3>
 
                 </section>
 
                 <section class="col-sm-4 col-md-4 col-lg-4">
                     <img class="icon" src="ServicesImages/heating.png" alt="Icon">
-                    <h3><?php echo TextConstants::HEATER; ?></h3>
+                    <h3><?php echo TextConstantsAr::HEATER; ?></h3>
                 </section>
 
 
@@ -156,59 +147,59 @@
 
                 <section class="col-sm-4 col-md-4 col-lg-4">
                     <img class="icon" src="ServicesImages/PAINT.png" alt="Icon">
-                    <h3><?php echo TextConstants::PAINT; ?></h3>
+                    <h3><?php echo TextConstantsAr::PAINT; ?></h3>
                 </section>
 
                 <section id="solar"  class="col-sm-4 col-md-4 col-lg-4">
                     <img class="icon" src="ServicesImages/solar.png" alt="Icon">
-                    <h3><?php echo TextConstants::SOLAR; ?></h3>
+                    <h3><?php echo TextConstantsAr::SOLAR; ?></h3>
                 </section>
 
             </div><!-- row -->
         </div><!-- content container -->
-        <h2 class="text-center text-info"><?php echo TextConstants::MOST_IMPORT; ?></h2>
+        <h2 class="text-center text-info"><?php echo TextConstantsAr::MOST_IMPORT; ?></h2>
 
         <div class="container">
 
             <section class="col-xs-6  col-sm-6 col-md-4 col-lg-4 ">
-                <h3><?php echo TextConstants::SAIID_HALLAB; ?> </h3>
+                <h3><?php echo TextConstantsAr::SAIID_HALLAB; ?> </h3>
 
             </section>        
             <section   class="col-xs-6  col-sm-6 col-md-4 col-lg-4">
-                <h3><?php echo TextConstants::SAIIDSHA; ?> </h3>
+                <h3><?php echo TextConstantsAr::SAIIDSHA; ?> </h3>
 
             </section>        
             <section   class="col-xs-6  col-sm-6 col-md-4 col-lg-4">
-                <h3><?php echo TextConstants::SAIID_HALLAB; ?> </h3>
+                <h3><?php echo TextConstantsAr::SAIID_HALLAB; ?> </h3>
 
             </section>        
             <section   class="col-xs-6  col-sm-6 col-md-4 col-lg-4">
-                <h3><?php echo TextConstants::SPIRO; ?> </h3>
+                <h3><?php echo TextConstantsAr::SPIRO; ?> </h3>
 
             </section>     
             <div class="clearfix"></div>
             <section   class="col-xs-6  col-sm-6 col-md-4 col-lg-4">
-                <h3><?php echo TextConstants::JAWDAT; ?> </h3>
+                <h3><?php echo TextConstantsAr::JAWDAT; ?> </h3>
 
             </section>        
             <section   class="col-xs-6  col-sm-6 col-md-4 col-lg-4">
-                <h3><?php echo TextConstants::OBEID; ?> </h3>
+                <h3><?php echo TextConstantsAr::OBEID; ?> </h3>
 
             </section>       
             <section   class="col-xs-6  col-sm-6 col-md-4 col-lg-4">
-                <h3><?php echo TextConstants::TUFIC; ?> </h3>
+                <h3><?php echo TextConstantsAr::TUFIC; ?> </h3>
 
             </section>       
             <section   class="col-xs-6  col-sm-6 col-md-4 col-lg-4">
-                <h3><?php echo TextConstants::RADWAN; ?> </h3>
+                <h3><?php echo TextConstantsAr::RADWAN; ?> </h3>
 
             </section>       
             <section   class="col-xs-6  col-sm-6 col-md-4 col-lg-4">
-                <h3><?php echo TextConstants::KARAMI; ?> </h3>
+                <h3><?php echo TextConstantsAr::KARAMI; ?> </h3>
 
             </section>       
             <section   class="col-xs-6  col-sm-6 col-md-4 col-lg-4">
-                <h3 class="text-success"><?php echo TextConstants::MANY_OTHERS; ?> </h3>
+                <h3 class="text-success"><?php echo TextConstantsAr::MANY_OTHERS; ?> </h3>
 
             </section>       
 
@@ -279,40 +270,40 @@
         <!--   start about us         -->
         <!--   ----------------------        -->
 
-        <h2 class="text-center"> <?php echo TextConstants::ABOUT_US; ?></h2>
+        <h2 class="text-center"> <?php echo TextConstantsAr::ABOUT_US; ?></h2>
         <div id="about-us" class="container">
             <blockquote   class="col-xs-6  col-sm-6 col-md-6 col-lg-6">
-                <h1> <?php echo TextConstants::OMAR; ?>  </h1>
+                <h1> <?php echo TextConstantsAr::OMAR; ?>  </h1>
                 <img src="AboutUsImages/about6.jpg" width="200" height="200" alt="image120" class="img-circle"/>
                 <footer class="quotes"> 
-                    <?php echo TextConstants::OMAR_QUOTES; ?>
+                    <?php echo TextConstantsAr::OMAR_QUOTES; ?>
                 </footer>
             </blockquote>            
             <blockquote   class="col-xs-6  col-sm-6 col-md-6 col-lg-6">
-                <h1><?php echo TextConstants::MARWAN; ?>  </h1>
+                <h1><?php echo TextConstantsAr::MARWAN; ?>  </h1>
 
                 <img src="AboutUsImages/about7.jpg" width="200" height="200" alt="image120" class="img-circle"/>
                 <footer class="quotes"> 
-                    <?php echo TextConstants::MARWAN_QUOTES; ?>
+                    <?php echo TextConstantsAr::MARWAN_QUOTES; ?>
                 </footer>
 
             </blockquote>            
             <div class="clearfix"></div>
 
             <blockquote   class="col-xs-6  col-sm-6 col-md-6 col-lg-6">
-                <h1><?php echo TextConstants::AMER; ?>   </h1>
+                <h1><?php echo TextConstantsAr::AMER; ?>   </h1>
 
                 <img src="AboutUsImages/about8.jpg" width="200" height="200" alt="image120" class="img-circle"/>
                 <footer class="quotes"> 
-                    <?php echo TextConstants::AMER_QUOTES; ?>
+                    <?php echo TextConstantsAr::AMER_QUOTES; ?>
                 </footer>
             </blockquote>            
             <blockquote   class="col-xs-6  col-sm-6 col-md-6 col-lg-6">
-                <h1><?php echo TextConstants::KIFAH; ?>   </h1>
+                <h1><?php echo TextConstantsAr::KIFAH; ?>   </h1>
 
                 <img src="AboutUsImages/about4.jpg" width="200" height="200" alt="image120" class="img-circle"/>
                 <footer class="quotes"> 
-                    <?php echo TextConstants::KIFAH_QUOTES; ?>
+                    <?php echo TextConstantsAr::KIFAH_QUOTES; ?>
                 </footer>
             </blockquote>            
 
@@ -325,12 +316,12 @@
         <!--   ----------------------        -->
 
         <div id="send-request" class="container-fluid"> 
-            <h2 class="text-center"> <?php echo TextConstants::SEND_REQUEST; ?></h2>
+            <h2 class="text-center"> <?php echo TextConstantsAr::SEND_REQUEST; ?></h2>
             <form class="form-horizontal"> 
-                <?php echo TextConstants::NAME; ?> <input class ="form-control" type="text" name="Name" value="" />
-                <?php echo TextConstants::EMAIL_LBL; ?><input class ="form-control"  type="text" name="Email" value="" />
-                <?php echo TextConstants::PHONE_NUMBER; ?><input class ="form-control"  type="text" name="Number" value="" />
-                <?php echo TextConstants::MESSAGE; ?><textarea class ="form-control" rows="8" cols="50" name="Message"></textarea>
+                <?php echo TextConstantsAr::NAME; ?> <input class ="form-control" type="text" name="Name" value="" />
+                <?php echo TextConstantsAr::EMAIL_LBL; ?><input class ="form-control"  type="text" name="Email" value="" />
+                <?php echo TextConstantsAr::PHONE_NUMBER; ?><input class ="form-control"  type="text" name="Number" value="" />
+                <?php echo TextConstantsAr::MESSAGE; ?><textarea class ="form-control" rows="8" cols="50" name="Message"></textarea>
                 <input class="submit btn-danger form-control" type="submit" name="contact_submitted" value="Send" />
             </form>          
 
@@ -344,20 +335,20 @@
         <!--   ----------------------        -->
 
         <div  class="container-fluid" id="contact-us" >    
-            <h2 class="text-center"> <?php echo TextConstants::CONTACT_US; ?></h2>
-            <h2 class="text-info"> <?php echo TextConstants::FIRST_OFFICE; ?></h2>
-            <h3> <?php echo TextConstants::FIRST_OFFICE_ADDRESS; ?></h3>
-            <h2 class="text-info"> <?php echo TextConstants::SECOND_OFFICE; ?></h2>
-            <h3> <?php echo TextConstants::SECOND_OFFICE_ADDRESS; ?></h3>
-            <h2 class="text-info"> <?php echo TextConstants::DUBAI_OFFICE; ?></h2>
-            <h3> <?php echo TextConstants::DUBAI_OFFICE_ADDRESS; ?></h3>
-            <h2 class="text-info"> <?php echo TextConstants::PHONE_LEBANON; ?></h2>
-            <h3> <?php echo TextConstants::KIFAH + TextConstants::KIFAH_PHONE; ?></h3>
-            <h3> <?php echo TextConstants::AMER + TextConstants::AMER_PHONE; ?></h3>
-            <h2 class="text-info"> <?php echo TextConstants::DUBAI_PHONE_LBL; ?></h2>
-            <h3> <?php echo TextConstants::KIFAH + TextConstants::KIFAH_DUBAI_PHONE; ?></h3>
-            <h2 class="text-info"> <?php echo TextConstants::EMAIL_LBL; ?></h2>
-            <h3> <?php echo TextConstants::EMAIL; ?></h3>   
+            <h2 class="text-center"> <?php echo TextConstantsAr::CONTACT_US; ?></h2>
+            <h2 class="text-info"> <?php echo TextConstantsAr::FIRST_OFFICE; ?></h2>
+            <h3> <?php echo TextConstantsAr::FIRST_OFFICE_ADDRESS; ?></h3>
+            <h2 class="text-info"> <?php echo TextConstantsAr::SECOND_OFFICE; ?></h2>
+            <h3> <?php echo TextConstantsAr::SECOND_OFFICE_ADDRESS; ?></h3>
+            <h2 class="text-info"> <?php echo TextConstantsAr::DUBAI_OFFICE; ?></h2>
+            <h3> <?php echo TextConstantsAr::DUBAI_OFFICE_ADDRESS; ?></h3>
+            <h2 class="text-info"> <?php echo TextConstantsAr::PHONE_LEBANON; ?></h2>
+            <h3> <?php echo TextConstantsAr::KIFAH + TextConstantsAr::KIFAH_PHONE; ?></h3>
+            <h3> <?php echo TextConstantsAr::AMER + TextConstantsAr::AMER_PHONE; ?></h3>
+            <h2 class="text-info"> <?php echo TextConstantsAr::DUBAI_PHONE_LBL; ?></h2>
+            <h3> <?php echo TextConstantsAr::KIFAH + TextConstantsAr::KIFAH_DUBAI_PHONE; ?></h3>
+            <h2 class="text-info"> <?php echo TextConstantsAr::EMAIL_LBL; ?></h2>
+            <h3> <?php echo TextConstantsAr::EMAIL; ?></h3>   
 
         </div>
 

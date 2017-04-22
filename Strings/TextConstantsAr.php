@@ -13,7 +13,7 @@
  */
 class TextConstantsAr {
 
-    const WHAT_IS_ABZ = "؟ABÏZ ماهي شركة";
+    const WHAT_IS_ABZ = "؟ABZ  ماهي شركة";
     const COMPANY_NAME = "ABZ شركة";
     const HOME_COMPANY_DEFINITION = " إن مؤسسين شركة زهرة كونستراكشن 'ش.م.م' المتخصصة بأعمال البناء و المقاولات و المؤسسة من قبل:
 عمر زهرة
@@ -31,6 +31,7 @@ class TextConstantsAr {
     const PAINT = " أعمال الدهان";
     const SOLAR = "تمديدات و تركيب الطاقة الشمسية ";
     const HEATER = "تمديدات و تركيب السوفاجات ";
+    const INTERNAL_AND_EXTERNAL = "أعمال الكهرباء الخارجية و الداخلية ";
     const ROCK = "أعمال تلبيس الحجر ";
     const TILE = "أعمال البلاط على جميع انواعه";
     const LOGO_TAG = "نقدم لك الموضة مع العمل المحترف ";
@@ -53,5 +54,35 @@ class TextConstantsAr {
     const RADWAN = "أستاذ رضوان عبد الحي  للبناء ";
     const KARAMI = "شركة كرامى للبناء   ";
     const MANY_OTHERS = "ABZ والعديد من المشاريع الأخرى و الشركات والمهندسين المنفذين من فبل شركة   ";
+    const LANG = "Change To English";
+    const TITLE = "ABZ Construction";
+    //our Work
+
+    const OMAR = "السيد عمر زهرة";
+    const OMAR_QUOTES = "  السيد عمر زهرة  مؤسس الشركة و خبرة اكثر من 60سنة في مجال البناء و المقاولات في لبنان و خارجه و قد لمع في هذا المجال";
+    const MARWAN = "السيد مروان  زهرة";
+    const MARWAN_QUOTES = " السيد مروان زهرة مؤسس الإدارة و المشاريع في الشركة خبرة أكثر من 40 سنة في هذا المجال و قد لمع اسمه في لبنان و الخارج";
+    const AMER = "السيد عامر زهرة";
+    const AMER_QUOTES = " السيد عامر زهرة المدير التنفيذي للشركة خبرة اكثر من 35سنة في مجال المقاولات و البناء و تنفيذ مئات المشاريع  و مسؤول العلاقات العامة في الشركة  ";
+    const KIFAH = "السيد كفاح زهرة ";
+    const KIFAH_QUOTES = " السيد كفاح زهرة المدير العام للشركة في لبنان و الخارج و خبرة أكثر من 20سنة في هذا المجال ";
+    const FIRST_OFFICE = "مكتب أول  ";
+    const FIRST_OFFICE_ADDRESS = "لبنان طرابلس شارع المطران ساحة الكيال  ";
+    const SECOND_OFFICE = "مكتب ثاني  ";
+    const SECOND_OFFICE_ADDRESS = "لبنان طرابلس شارع الجميزات  ";
+    const DUBAI_OFFICE = "مكتب دبي  ";
+    const DUBAI_OFFICE_ADDRESS = "Sunshine Building 1st floor,office No #109,AL garhoud Area,Deira opp.Al Tayer Showroom Dubai United Arab Emirates P.O box:33836 Dubai ";
+    const PHONE_LEBANON = "هاتف لبنان ";
+    const KIFAH_PHONE = "+96171110222 ";
+    const AMER_PHONE = "+9613465093";
+    const DUBAI_PHONE_LBL = "هاتف  دبي   ";
+    const DUBAI_PHONE = " هاتف  دبي  ";
+    const KIFAH_DUBAI_PHONE = "+97142726202";
+    const EMAIL_LBL = "البريد الإلكتروني";
+    const EMAIL = "abz.zahra@outlook.com";
+    const NAME = "الإسمٌ";
+    const EMAIL_ADDRESS = "البريد الإلكتروني";
+    const PHONE_NUMBER = "رقم الهاتف   ";
+    const MESSAGE = "الرسالة";
 
 }

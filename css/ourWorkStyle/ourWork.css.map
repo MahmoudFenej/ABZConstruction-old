@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAI,OAAO,GACK,WAAW,EAAE,IAAI,EACjB,SAAS,EAAE,IAAI,EACf,aAAa,EAAE,IAAI",
+"sources": ["../../Scss/ourWorkStyle/ourWork.scss"],
+"names": [],
+"file": "ourWork.css"
+}
