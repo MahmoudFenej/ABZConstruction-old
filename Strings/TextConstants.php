@@ -83,6 +83,7 @@ abstract class TextConstants {
     const EMAIL_LBL="Email:";
     const EMAIL="abz.zahra@outlook.com";
     const LANG = "العربية";
+    const LOGIN="LOGIN";
     const TITLE= "ABZ Construction";
     // Send Request
     const NAME="Name";

@@ -1,4 +1,3 @@
-f<!DOCTYPE html>
 <?php include_once 'Strings/TextConstantsAr.php'; ?>
 <html lang="en">
     <head>
@@ -13,42 +12,42 @@ f<!DOCTYPE html>
         <title><?php echo TextConstantsAr::TITLE; ?></title>
 
 
-
-        <style>
-
-
-
-        </style>
-
     </head>
 
-    <body>
+    <body data-spy="scroll" data-target=".navbar-default">
         <!--  Navigation bar     -->
         <!--   ----------------------        -->
-        <nav class="navbar navbar-default" role="navigation">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="collapsed navbar-toggle" data-toggle="collapse" data-target="#collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <img class="navbar-brand" id="img" href="#featured" src="images/ABZ_LOGO.png">
-                </div><!-- navbar-header -->
-                <div class="collapse navbar-collapse" id="collapse">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#featured" id="home"><?php echo TextConstantsAr::HOME; ?></a></li>
-                        <li><a href="#services"><?php echo TextConstantsAr::OUR_WORK; ?></a></li>
-                        <li><a href="#about-us"><?php echo TextConstantsAr::ABOUT_US; ?></a></li>
-                        <li><a href="#contact-us"><?php echo TextConstantsAr::CONTACT_US; ?></a></li>
-                        <li><a href="#send-request"><?php echo TextConstantsAr::SEND_REQUEST; ?></a></li>
-                        <li><a href="indexAr.php"><?php echo TextConstantsAr::LANG; ?></a></li>
 
-                    </ul>
+        <header>
+            <nav class="navbar navbar-default"
+            data-spy="affix" data-offset="800"
+                 role="navigation">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="collapsed navbar-toggle" data-toggle="collapse" data-target="#collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <img class="navbar-brand" id="img" href="#featured" src="images/ABZ_LOGO.png">
+                    </div><!-- navbar-header -->
+                    <div class="collapse navbar-collapse" id="collapse">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#featured" id="home"><?php echo TextConstantsAr::HOME; ?></a></li>
+                            <li><a href="#services"><?php echo TextConstantsAr::OUR_WORK; ?></a></li>
+                            <li><a href="#about-us"><?php echo TextConstantsAr::ABOUT_US; ?></a></li>
+                            <li><a href="#contact-us"><?php echo TextConstantsAr::CONTACT_US; ?></a></li>
+                            <li><a href="#send-request"><?php echo TextConstantsAr::SEND_REQUEST; ?></a></li>
+                            <li><a href="index.php"><?php echo TextConstantsAr::LANG; ?></a></li>                             
+                            <li><a href="LoginPage.php"><?php echo TextConstantsAr::LOGIN; ?></a></li>
+
+
+                        </ul>
+                    </div>
                 </div>
-            </div>
-        </nav>
+            </nav>
+        </header>
         <!--   ----------------------        -->
         <!--  end  Navigation bar     -->
 
@@ -107,7 +106,7 @@ f<!DOCTYPE html>
         <!--   ----------------------        -->
 
         <div  id="home" class="jumbotron container">
-            <h3> <?php echo TextConstantsAr::WHAT_IS_ABZ; ?></h3>
+            <h3 class="text-center text-info"> <?php echo TextConstantsAr::WHAT_IS_ABZ; ?></h3>
             <p> <?php echo TextConstantsAr::HOME_COMPANY_DEFINITION ?> </p>
 
         </div>
@@ -118,7 +117,7 @@ f<!DOCTYPE html>
         <!--   start services        -->
         <!--   ----------------------        -->
         <div id="services" class="services container">
-            <h2 class="text-center"><?php echo TextConstantsAr::COMPANY_WORK_FEILD; ?></h2>
+            <h2 class="text-center text-info"><?php echo TextConstantsAr::COMPANY_WORK_FEILD; ?></h2>
             <div class="row">
                 <section class="col-sm-4 col-md-4 col-lg-4 ">
                     <img class="icon fadeInDown" src="ServicesImages/EngineerImage.png" alt="Icon">
@@ -270,16 +269,16 @@ f<!DOCTYPE html>
         <!--   start about us         -->
         <!--   ----------------------        -->
 
-        <h2 class="text-center"> <?php echo TextConstantsAr::ABOUT_US; ?></h2>
+        <h2 class="text-center text-info"> <?php echo TextConstantsAr::ABOUT_US; ?></h2>
         <div id="about-us" class="container">
-            <blockquote   class="col-xs-6  col-sm-6 col-md-6 col-lg-6">
+            <blockquote   class="col-xs-12  col-sm-12 col-md-6 col-lg-6">
                 <h1> <?php echo TextConstantsAr::OMAR; ?>  </h1>
                 <img src="AboutUsImages/about6.jpg" width="200" height="200" alt="image120" class="img-circle"/>
                 <footer class="quotes"> 
                     <?php echo TextConstantsAr::OMAR_QUOTES; ?>
                 </footer>
             </blockquote>            
-            <blockquote   class="col-xs-6  col-sm-6 col-md-6 col-lg-6">
+            <blockquote   class="col-xs-12  col-sm-12 col-md-6 col-lg-6">
                 <h1><?php echo TextConstantsAr::MARWAN; ?>  </h1>
 
                 <img src="AboutUsImages/about7.jpg" width="200" height="200" alt="image120" class="img-circle"/>
@@ -290,7 +289,7 @@ f<!DOCTYPE html>
             </blockquote>            
             <div class="clearfix"></div>
 
-            <blockquote   class="col-xs-6  col-sm-6 col-md-6 col-lg-6">
+            <blockquote   class="col-xs-12  col-sm-12 col-md-6 col-lg-6">
                 <h1><?php echo TextConstantsAr::AMER; ?>   </h1>
 
                 <img src="AboutUsImages/about8.jpg" width="200" height="200" alt="image120" class="img-circle"/>
@@ -298,7 +297,7 @@ f<!DOCTYPE html>
                     <?php echo TextConstantsAr::AMER_QUOTES; ?>
                 </footer>
             </blockquote>            
-            <blockquote   class="col-xs-6  col-sm-6 col-md-6 col-lg-6">
+            <blockquote   class="col-xs-12  col-sm-12 col-md-6 col-lg-6">
                 <h1><?php echo TextConstantsAr::KIFAH; ?>   </h1>
 
                 <img src="AboutUsImages/about4.jpg" width="200" height="200" alt="image120" class="img-circle"/>
@@ -315,14 +314,20 @@ f<!DOCTYPE html>
         <!--   start send request         -->
         <!--   ----------------------        -->
 
-        <div id="send-request" class="container-fluid"> 
-            <h2 class="text-center"> <?php echo TextConstantsAr::SEND_REQUEST; ?></h2>
+        <div id="send-request" class="container" > 
+            <h2 class="text-center text-info"> <?php echo TextConstantsAr::SEND_REQUEST; ?></h2>
+             <div id="errorMessage" class="text-danger text-center text-uppercase"></div>
+
             <form class="form-horizontal"> 
-                <?php echo TextConstantsAr::NAME; ?> <input class ="form-control" type="text" name="Name" value="" />
-                <?php echo TextConstantsAr::EMAIL_LBL; ?><input class ="form-control"  type="text" name="Email" value="" />
-                <?php echo TextConstantsAr::PHONE_NUMBER; ?><input class ="form-control"  type="text" name="Number" value="" />
-                <?php echo TextConstantsAr::MESSAGE; ?><textarea class ="form-control" rows="8" cols="50" name="Message"></textarea>
-                <input class="submit btn-danger form-control" type="submit" name="contact_submitted" value="Send" />
+
+                <div class="form-group has-feedback has-success">
+                    <label for="inputName"><?php echo TextConstantsAr::NAME; ?></label> 
+                    <input class ="form-control" type="text" id="nameTxt" id="inputName" />
+                    <?php echo TextConstantsAr::EMAIL_LBL; ?><input class ="form-control"  type="text" id="emailTxt" value="" />
+                    <?php echo TextConstantsAr::PHONE_NUMBER; ?><input class ="form-control"  type="text" id="phoneTxt" value="" />
+                    <?php echo TextConstantsAr::MESSAGE; ?><textarea class ="form-control" rows="8" cols="50" id="messageTxt"></textarea>
+                    <input class="submit btn-danger form-control" type="submit" id="submit" value="Send" />
+                </div>
             </form>          
 
 
@@ -331,11 +336,11 @@ f<!DOCTYPE html>
         <!--   ends send request         -->
         <!--   ----------------------        -->
 
-     <!--   start contact us        -->
+        <!--   start contact us        -->
         <!--   ----------------------        -->
 
         <div  class="container-fluid" id="contact-us" >    
-            <h2 class="text-center"> <?php echo TextConstantsAr::CONTACT_US; ?></h2>
+            <h2 class="text-center text-info"> <?php echo TextConstantsAr::CONTACT_US; ?></h2>
             <h2 class="text-info"> <?php echo TextConstantsAr::FIRST_OFFICE; ?></h2>
             <h3> <?php echo TextConstantsAr::FIRST_OFFICE_ADDRESS; ?></h3>
             <h2 class="text-info"> <?php echo TextConstantsAr::SECOND_OFFICE; ?></h2>
@@ -352,7 +357,7 @@ f<!DOCTYPE html>
 
         </div>
 
-     <!--   end contact us         -->
+        <!--   end contact us         -->
         <!--   ----------------------        -->
     </body>
 </html>

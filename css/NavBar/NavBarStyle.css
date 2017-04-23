@@ -8,4 +8,6 @@
 
 .content { text-align: center; }
 
+.navbar-nav { width: 100%; z-index: 100; }
+
 /*# sourceMappingURL=NavBarStyle.css.map */

@@ -55,6 +55,7 @@ class TextConstantsAr {
     const KARAMI = "شركة كرامى للبناء   ";
     const MANY_OTHERS = "ABZ والعديد من المشاريع الأخرى و الشركات والمهندسين المنفذين من فبل شركة   ";
     const LANG = "Change To English";
+    const LOGIN="تسجيل دخول";
     const TITLE = "ABZ Construction";
     //our Work
 
