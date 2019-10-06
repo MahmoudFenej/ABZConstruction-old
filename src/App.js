@@ -3,6 +3,7 @@ import Navbar from "./components/navbar/Navbar";
 import GlobalStyle from './styles/Global';
 import './i18n'
 import AbzCarousel from './components/carousel/Carousel';
+import HomeSection from './components/home/HomeSection';
 
 class App extends Component {
   state = {
@@ -25,7 +26,7 @@ class App extends Component {
           handleNavbar={this.handleNavbar}
         />
         <AbzCarousel />
-
+        <HomeSection/>
       </Suspense>
 
     )
