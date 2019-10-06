@@ -83,16 +83,17 @@ const BurgerWrapper = styled.div`
 
 const useNavbarMenu = (barAnimation, linkAnimation, props) => {
   const { t } = useTranslation();
-  console.log(t);
   return <>
     <NavBar style={barAnimation}>
       <FlexContainer>
         <Brand />
         <NavLinks style={linkAnimation}>
-          <a href="/">{t('hello.label')}</a>
-          <a href="/">link n2</a>
-          <a href="/">link n3</a>
-          <a href="/">link n4</a>
+          <a href="/">{t('HOME')}</a>
+          <a href="/">{t('OUR_WORK')}</a>
+          <a href="/">{t('ABOUT_US')}</a>
+          <a href="/">{t('CONTACT_US')}</a>
+          <a href="/">{t('SEND_REQUEST')}</a>
+          <a href="/">{t('LANG')}</a>
         </NavLinks>
         <BurgerWrapper>
           <BurgerMenu navbarState={props.navbarState} handleNavbar={props.handleNavbar} />

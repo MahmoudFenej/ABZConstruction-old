@@ -2,10 +2,11 @@ import React from 'react';
 import styled from 'styled-components';
 
 import { useSpring, animated } from 'react-spring';
+import { useTranslation } from 'react-i18next';
 
 const CollapseMenu = (props) => {
   const { open } = useSpring({ open: props.navbarState ? 0 : 1 });
-
+  const { t } = useTranslation();
   if (props.navbarState === true) {
     return (
       <CollapseWrapper style={{
@@ -16,10 +17,12 @@ const CollapseMenu = (props) => {
       }}
       >
         <NavLinks>
-          <li><a href="/" onClick={props.handleNavbar}>link n1</a></li>
-          <li><a href="/" onClick={props.handleNavbar}>link n2</a></li>
-          <li><a href="/" onClick={props.handleNavbar}>link n3</a></li>
-          <li><a href="/" onClick={props.handleNavbar}>link n4</a></li>
+          <li><a href="/" onClick={props.handleNavbar}>{t('HOME')}</a></li>
+          <li><a href="/" onClick={props.handleNavbar}>{t('OUR_WORK')}</a></li>
+          <li><a href="/" onClick={props.handleNavbar}>{t('ABOUT_US')}</a></li>
+          <li><a href="/" onClick={props.handleNavbar}>{t('CONTACT_US')}</a></li>
+          <li><a href="/" onClick={props.handleNavbar}>{t('SEND_REQUEST')}</a></li>
+          <li><a href="/" onClick={props.handleNavbar}>{t('LANG')}</a></li>
         </NavLinks>
       </CollapseWrapper>
     );
