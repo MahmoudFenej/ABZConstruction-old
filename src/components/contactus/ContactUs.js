@@ -1,5 +1,6 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
+import 'bootstrap/dist/css/bootstrap.css';
 
 export default function useContactUsSection() {
     const { t } = useTranslation();
@@ -12,10 +13,10 @@ export default function useContactUsSection() {
         <h2 class="text-info"> {t("DUBAI_OFFICE")}</h2>
         <h3> {t("DUBAI_OFFICE_ADDRESS")}</h3>
         <h2 class="text-info"> {t("PHONE_LEBANON")}</h2>
-        <h3> {t("KIFAH")} + {t("KIFAH_PHONE")} ?></h3>
-        <h3> {t("AMER")} + {t("AMER_PHONE")} ?></h3>
+        <h3> {t("KIFAH")} + {t("KIFAH_PHONE")} </h3>
+        <h3> {t("AMER")} + {t("AMER_PHONE")} </h3>
         <h2 class="text-info"> {t("DUBAI_PHONE_LBL")}</h2>
-        <h3> {t("KIFAH")} + {t("KIFAH_DUBAI_PHONE")} ?></h3>
+        <h3> {t("KIFAH")} + {t("KIFAH_DUBAI_PHONE")}</h3>
         <h2 class="text-info"> {t("EMAIL_LBL")}</h2>
         <h3> {t("EMAIL")}</h3>
     </div>

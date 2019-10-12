@@ -5,6 +5,7 @@ import './i18n'
 import AbzCarousel from './components/carousel/Carousel';
 import HomeSection from './components/home/HomeSection';
 import ServicesSection from './components/abzservices/ServicesSection';
+import RecipeReviewCard from './components/abzservices/ServicesSection';
 import ProjectsSection from './components/Projects/Projects';
 import OurWorkSection from './components/ourwork/OurWork';
 import AboutUsSection from './components/aboutus/AboutUs';
@@ -37,12 +38,12 @@ class App extends Component {
         <ProjectsSection />
         <OurWorkSection />
         <AboutUsSection />
-        <MessageFormSection/>
+        <MessageFormSection />
         <ContactUsSection/>
       </Suspense>
-
-    )
+  
+      )
+    }
   }
-}
-
+  
 export default App

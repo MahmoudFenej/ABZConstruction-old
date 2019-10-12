@@ -1,5 +1,6 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
+import 'bootstrap/dist/css/bootstrap.css';
 
 export default function useServicesSection() {
     const { t } = useTranslation()
